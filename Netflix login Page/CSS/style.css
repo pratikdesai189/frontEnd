@@ -37,3 +37,7 @@ body
   display: inline-block;
   width: fit-content;
 }
+.main-title-container
+{
+    color: white;
+}
