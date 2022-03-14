@@ -1,0 +1,18 @@
+fieldset
+{
+    background-color:rgb(241, 190, 173);
+    width: 400px;
+    border-radius: 5px;
+}
+body
+{
+    background-color:rgb(248, 231, 226); ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+#FS1,#FS2
+{
+    font-size: large;
+    background-color: yellow;
+}
