@@ -1,18 +1,20 @@
-body
-{
-    padding: 0px;
-    margin: 0px;
-    overflow-y: hidden;
+@font-face {
+  font-family: netflix-sans-regular;
+  src: url(/Fonts/BebasNeue-Regular.ttf);
 }
-.root
-{
-    background-size: cover;
-    background-image: url(/images/background.jpg);
-    background-position: center;
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-y: hidden;
+  background-size: cover;
+  background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url(/images/background.jpg);
+  background-repeat: no-repeat;
+}
+.root {
+  background-position: center;
 }
 .navbar {
-    padding-top: 1%;
-
+  padding-top: 1%;
   height: 8vh;
   display: flex;
   justify-content: space-between;
@@ -37,7 +39,6 @@ body
   display: inline-block;
   width: fit-content;
 }
-.main-title-container
-{
-    color: white;
+.main-title-container {
+  color: white;
 }
