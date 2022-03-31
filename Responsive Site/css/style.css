@@ -51,10 +51,12 @@
   padding-top: 70px;
 }
 #showcase h2 {
+  letter-spacing: 0.1em;
   font-size: 60px;
 }
 #showcase h4 {
   font-size: 20px;
+  letter-spacing: 0.1em;
 }
 
 #subscribe {
@@ -71,17 +73,19 @@
 }
 #subscribe input button {
   color: white;
-
   float: right;
   padding: 10px;
 }
 #subscribe button {
-  background-color: coral;
+  background-color: white;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 17px;
+  color: coral;
+  font-weight: 500;
 }
 #subscribe button:hover {
-  background-color: white;
+  background-color: coral;
+  color: white;
 }
 #footer {
   height: 80px;
@@ -93,12 +97,14 @@
 
 #information {
   height: 300px;
+  box-sizing: border-box;
   background-color: rgb(252, 225, 215);
 }
-#information .info-1,
+.container .info-1,
 .info-2,
 .info-3 {
-  width: 27%;
+  border: 1px solid yellow;
+  width: 33%;
   text-align: center;
   box-sizing: border-box;
   display: inline-block;
