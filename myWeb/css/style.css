@@ -17,11 +17,12 @@
 }
 
 #navigation-bar {
+  height: 40px;
   background-color: gray;
   color: white;
 }
 #navigation-bar ul {
-  padding: 0;
+  padding: 10px;
   list-style: none;
 }
 
@@ -33,6 +34,7 @@
   text-decoration: none;
   color: white;
   font-size: 18px;
+  font-weight: 500;
   padding-right: 15px;
 }
 
@@ -40,6 +42,8 @@
   text-decoration: none;
   color: coral;
   background-color: white;
+  border-radius: 10px;
+  cursor: grab;
 }
 
 #showcase {
@@ -60,7 +64,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-main {
+#main {
   box-sizing: border-box;
   float: left;
   width: 70%;
@@ -72,7 +76,7 @@ main {
   float: right;
   width: 30%;
   padding: 10px;
-  background: #333;
+  background: rgb(117, 116, 116);
   margin-bottom: 20px;
 }
 
@@ -80,4 +84,6 @@ main {
   background: #333;
   color: white;
   text-align: center;
+  padding-top: 20px;
+  height: 70px;
 }
