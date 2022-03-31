@@ -1,3 +1,4 @@
+/* Global */
 * {
   padding: 0;
   margin: 0;
@@ -6,30 +7,51 @@
 .container {
   width: 80%;
   margin: auto;
+  line-height: 1.5;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: white;
+  padding: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: coral;
+  height: 42px;
+  font-weight: 500;
+  border: none;
+}
+#subscribe button:hover {
+  background-color: coral;
+  color: white;
 }
 
 #main-header {
-  padding-left: 50px;
-  padding-top: 15px;
   background-color: grey;
   height: 70px;
   color: white;
   text-align: center;
+  border-bottom: 3px solid coral;
 }
 #main-header .logo {
-  float: left;
   color: coral;
 }
 #main-header h1 {
   float: left;
+  margin-top: 10px;
+  padding-right: 350px;
 }
-#main-header ul {
-  list-style: none;
-}
+
 #main-header li {
-  padding: 25px;
-  float: right;
+  list-style: none;
+  padding: 10px;
+  float: left;
   display: inline;
+  margin-top: 15px;
 }
 #main-header a {
   text-decoration: none;
@@ -37,13 +59,22 @@
   font-weight: 500;
 }
 
+#main-header .active {
+  color: coral;
+}
+#main-header .active:hover {
+  color: white;
+}
+
 #main-header a:hover {
   background-color: coral;
   border-radius: 17px;
-  padding: 8px;
+  padding: 4px 8px 4px 8px;
+  font-weight: bold;
 }
+
 #showcase {
-  background-image: url(/images/bg-img.png);
+  background-image: url(../images/bg-img.png);
   background-repeat: round;
   height: 400px;
   color: white;
@@ -66,27 +97,23 @@
 }
 
 #subscribe h3 {
+  text-transform: capitalize;
   float: left;
   color: white;
-  padding-right: 450px;
-  font-size: 20px;
+  font-size: 25px;
 }
-#subscribe input button {
-  color: white;
+
+#subscribe form {
   float: right;
+  margin-top: 8px;
+}
+#subscribe input[type="email"] {
+  color: white;
+  height: 20px;
+  width: 200px;
   padding: 10px;
 }
-#subscribe button {
-  background-color: white;
-  padding: 8px;
-  border-radius: 17px;
-  color: coral;
-  font-weight: 500;
-}
-#subscribe button:hover {
-  background-color: coral;
-  color: white;
-}
+
 #footer {
   height: 80px;
   background-color: coral;
@@ -100,12 +127,9 @@
   box-sizing: border-box;
   background-color: rgb(252, 225, 215);
 }
-.container .info-1,
-.info-2,
-.info-3 {
-  border: 1px solid yellow;
+.box {
+  float: left;
   width: 33%;
   text-align: center;
-  box-sizing: border-box;
-  display: inline-block;
+  margin-top: 90px;
 }
