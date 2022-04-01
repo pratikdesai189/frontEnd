@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  
+}
+
+#branding {
+  color: white;
+  height: 100px;
+  border-bottom: coral;
+  background-color: darkgray;
+  border-bottom: 4px solid coral;
+}
+
+#branding h1 {
+  float: left;
+  margin-top: 20px;
+  font-size: 40px;
+  padding-right: 200px;
+}
+#branding .highlight {
+  color: coral;
+}
+#branding ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#branding a {
+  float: left;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 30px;
+  color: white;
+
+}
+
+#branding a:hover {
+  background-color: coral;
+  padding: 8px;
+  border-radius: 15px;
+}
+#branding .highlight-home {
+  color: coral;
+  
+}
+#branding .highlight-home:hover {
+  color: white;
+}
+
+#main-form {
+  margin-top: 25px;
+  height: 600px;
+  
+}
+#main-form label {
+  width: 100px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+#main-form input,
+textarea {
+  margin: 10px;
+  width: 200px;
+  height: 35px;
+}
+
+#credits {
+  height: 100px;
+  background-color: darkgray;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
