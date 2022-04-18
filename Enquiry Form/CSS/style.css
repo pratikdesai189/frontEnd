@@ -3,11 +3,13 @@
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
+  
 }
 
 .container {
   width: 80%;
   margin: auto;
+  
 }
 
 #branding {
@@ -39,6 +41,7 @@
   text-decoration: none;
   margin-top: 30px;
   color: white;
+
 }
 
 #branding a:hover {
@@ -48,6 +51,7 @@
 }
 #branding .highlight-home {
   color: coral;
+  
 }
 #branding .highlight-home:hover {
   color: white;
@@ -56,6 +60,7 @@
 #main-form {
   margin-top: 25px;
   height: 600px;
+  
 }
 #main-form label {
   width: 100px;
